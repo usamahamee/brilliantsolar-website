@@ -53,6 +53,11 @@ export default function RootLayout({
         <Script src="https://fast.wistia.com/player.js" strategy="afterInteractive" />
         <Script src="https://fast.wistia.com/embed/a2k3dmo2jc.js" strategy="afterInteractive" type="module" />
         <Script src="https://api.netscoreapp.com/js/form_embed.js" strategy="lazyOnload" />
+        <Script
+          src="https://api.netscoreapp.com/js/external-tracking.js"
+          data-tracking-id="tk_6f8b662366344f3e8ba27d0a426b8578"
+          strategy="afterInteractive"
+        />
         {children}
       </body>
     </html>
